@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Block Google's Link Preview Bubble",
   "version": "1.0",
-  "update_url": "https://github.com/BCS-DFISHER/blockGooglePreviewBubble/blob/main/block-google-preview-bubble/update.xml",
+  "update_url": "https://bcs-dfisher.github.io/blockGooglePreviewBubble/block-google-preview-bubble/update.xml",
   "description": "Removes the link preview bubble element on *.google.com",
   "permissions": [
     "storage"
