@@ -1,0 +1,7 @@
+/* Only hide the bubble IF the body has our active class */
+div#docs-link-bubble.docs-bubble.docs-linkbubble-bubble.appsElementsLinkPreview {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
