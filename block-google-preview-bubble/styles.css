@@ -1,5 +1,9 @@
-/* Only hide the bubble IF the body has our active class */
-div#docs-link-bubble.docs-bubble.docs-linkbubble-bubble.appsElementsLinkPreview {
+/* 
+If the extension is toggled on (body.block-youtube), find the main docs-link-bubble. If ANY element inside that bubble has a data-url containing "youtube.com" or "youtu.be", hide the entire bubble!
+*/
+
+div#docs-link-bubble:has([data-url*="youtube.com"]),
+div#docs-link-bubble:has([data-url*="youtu.be"]) {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
