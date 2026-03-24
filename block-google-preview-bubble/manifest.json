@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Block Google's Link Preview Bubble",
-  "version": "1.0",
+  "name": "Block YouTube Link Previews",
+  "version": "2.0",
   "update_url": "https://bcs-dfisher.github.io/blockGooglePreviewBubble/block-google-preview-bubble/update.xml",
-  "description": "Removes the link preview bubble element on *.google.com",
+  "description": "Removes the link preview bubble element for YouTube videos on *.google.com",
   "permissions": [
     "storage"
   ],
@@ -20,7 +20,7 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "Block Google's Link Preview Bubble"
+    "default_title": "Block YouTube Link Previews"
   },
   "content_scripts": [
     {
@@ -29,9 +29,6 @@
       ],
       "css": [
         "styles.css"
-      ],
-      "js": [
-        "content.js"
       ],
       "run_at": "document_start"
     }
